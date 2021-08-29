@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/cahnge',function(){
-   return dd("My change") ;
+   return dd("No this is My change") ;
 });
